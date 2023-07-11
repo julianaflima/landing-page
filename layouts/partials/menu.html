@@ -1,0 +1,23 @@
+<nav class="navbar sticky-top navbar-expand-lg bg-dark text-light" data-bs-theme="dark">
+	<div class="container">
+		<a class="navbar-brand fw-bold" href="{{ site.Data.home.hero.header.logo.address }}">{{ site.Data.home.hero.header.logo.name }} </a>
+
+		{{ if site.Data.home.hero.header.links }}
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="menu">
+				<ul class="navbar-nav ms-auto">
+					{{ range sort site.Data.home.hero.header.links "weight" "asc" }}
+						<li class="nav-item">
+							<a href="{{ .address }}" class="nav-link">{{ .name }}</a>
+						</li>
+					{{ end }}
+				</ul>
+			</div>
+		{{ end }}
+
+	</div>
+</nav>
+
+

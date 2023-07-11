@@ -1,0 +1,152 @@
+title: "blah"
+subtitle: "blé"
+header:
+  logo: 
+    name: "Header Logo"
+    address: "#"
+  links:
+    one:
+      name: "link one"
+      address: "http://www.google.com"
+      weight: 100
+    two:
+      name: "link two"
+      address: "#"
+      weight: 200
+    three:
+      name: "link three"
+      address: "#"  
+      weight: 300
+
+hero_title: "Become a Web Developer"
+hero_subtitle: "We focus on teaching our students the fundamentals of the latest and greatest technologies to prepare them for their first dev role."
+hero_btn: "Start the enrollment"
+hero_img: "img/showcase.svg"
+
+newsletter:
+  title: "Sign up for newsletter"
+  placeholder: "Enter email"
+  btn_text: "Subscribe"
+
+cards:
+  one: 
+    icon: "bi-laptop"
+    title: "Virtual"
+    description: "Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Nemo qui, laboriosam, aliquid modi saepe autem! "
+  two:
+    icon: "bi-person-square"
+    title: "Hybrid"
+    description: "Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Nemo qui, laboriosam, aliquid modi saepe autem! "
+  three:
+    icon: "bi-people"
+    title: "In Person"
+    description: "Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Nemo qui, laboriosam, aliquid modi saepe autem! "
+
+feature_1:
+  img: "img/fundamentals.svg"
+  title: "Learn the fundamentals"
+  subtitle: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente a quisquam libero deleniti vitae facere?"
+  description: "Lorem ipsum dolor sit, amet consectetur, adipisicing elit. In exercitationem facere id similique?"
+
+feature_2: 
+  img: "img/react.svg"
+  title: "Learn React"
+  subtitle: "Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Reprehenderit laborum aliquam eveniet dolor cumque assumenda."
+  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus blanditiis perspiciatis provident."
+
+faqs:
+  title: "Frequently Asked Questions"
+  questions:
+    one:
+      question: "Where exactly are you located?"
+      answer: "Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Ex eaque perspiciatis, deserunt odio error voluptatum."
+      id: "one"
+    two:
+      question: "How much does it cost to attend?"
+      answer: "Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Ex eaque perspiciatis, deserunt odio error voluptatum."
+      id: "two"
+    three:
+      question: "What do I need to know?"
+      answer: "Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Ex eaque perspiciatis, deserunt odio error voluptatum."
+      id: "three"
+    four: 
+      question: "How do I sign up?"
+      answer: "Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Ex eaque perspiciatis, deserunt odio error voluptatum."
+      id: "four"
+    five:
+      question: "Do you help me find a job?"
+      answer: "Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Ex eaque perspiciatis, deserunt odio error voluptatum."
+      id: "five"
+
+instructors:
+  title: "Our instructors"
+  subtitle: "Our instructors all have 5+ years working as a web developer in the industry"
+  instructors:
+    one:
+      name: "John Doe"
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias molestiae minus accusamus laborum excepturi, delectus!"
+      img: "https://randomuser.me/api/portraits/men/11.jpg"
+      social:
+        - icon: "bi-twitter"
+          address: "https://twitter.com/"
+        - icon: "bi-facebook"
+          address: "https://www.facebook.com"
+        - icon: "bi-linkedin"
+          address: http://linkedin.com
+        - icon: "bi-instagram"
+          address: "http://instagram.com"
+    two:
+      name: "Jane Doe"
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias molestiae minus accusamus laborum excepturi, delectus!"
+      img: "https://randomuser.me/api/portraits/women/11.jpg"
+      social:
+        - icon: "bi-twitter"
+          address: "https://twitter.com/"
+        - icon: "bi-facebook"
+          address: "https://www.facebook.com"
+        - icon: "bi-linkedin"
+          address: http://linkedin.com
+        - icon: "bi-instagram"
+          address: "http://instagram.com"
+    three: 
+      name: "Steve Smith"
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias molestiae minus accusamus laborum excepturi, delectus!"
+      img: "https://randomuser.me/api/portraits/men/12.jpg"
+      social:
+        - icon: "bi-twitter"
+          address: "https://twitter.com/"
+        - icon: "bi-facebook"
+          address: "https://www.facebook.com"
+        - icon: "bi-linkedin"
+          address: http://linkedin.com
+        - icon: "bi-instagram"
+          address: "http://instagram.com"
+    four:
+      name: "Sara Smith"
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias molestiae minus accusamus laborum excepturi, delectus!"
+      img: "https://randomuser.me/api/portraits/women/12.jpg"
+      social:
+        - icon: "bi-twitter"
+          address: "https://twitter.com/"
+        - icon: "bi-facebook"
+          address: "https://www.facebook.com"
+        - icon: "bi-linkedin"
+          address: http://linkedin.com
+        - icon: "bi-instagram"
+          address: "http://instagram.com"
+
+contact_info:
+  title: "Contact Information"
+  info:
+    - tag: "Main location"
+      content: "50 Main st Boston MA"
+    - tag: "Enrollment Phone"
+      content: "555-555-5555"
+    - tag: "Student Phone"
+      content: "666-666-7777"
+    - tag: "Enrollment email"
+      content: "example@example.com"
+    - tag: "Student email"
+      content: "example2@example.com"
+
+copyright: "Copyright @ 2021 Frontend Bootcamp"
